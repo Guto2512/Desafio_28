@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo 50px.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <script src="js/carrossel.js" defer></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Oque assistir?</title>
+</head>
+
+    <body>
+        <div id="header">
+            <div id="logo">
+               <img src="img/Icon 100px.png" alt="Logo">
+            </div>
+            
+            <input type="checkbox" id="btt_menu">
+            <label for="btt_menu"> &#9776; </label>
+
+            <div id="nav">
+
+                    <input type="text" id="pesquisar" placeholder="Pesquisar">
+               
+                <div class="box">                                                                           
+                    <a href="#">Filmes</a> 
+                </div>
+
+                <div class="box">
+                    <a href="#">Series</a> 
+                </div>
+                          
+                <div class="dropdown"> 
+                      <a href="#" class="drop_btt"> Gênero &#9660;</a> 
+                        <div class="dropdown_content">
+                            <a href="">Ação</a>
+                            <a href="">Aventura</a>
+                            <a href="">Animação</a>
+                            <a href="">Comedia</a>
+                            <a href="">Documentário</a>
+                            <a href="">Ficção Ciêntifica</a>
+                            <a href="">Suspense</a>
+                            <a href="">Terror</a>
+                        </div>
+                </div>   
+                
+                <div class="dropdown"> 
+                    <a href="#" class="drop_btt"> Streaming &#9660;</a> 
+                      <div class="content_streaming">
+                          <a href="">Netflix</a>
+                          <a href="">Prime Video</a>
+                          <a href="">HBO MAX</a>
+                          <a href="">Disney+</a>
+                          <a href="">GloboPlay</a>
+                      </div>
+              </div>  
+            </div>
+        </div>      
+
+        <div class="container">
+            <h2>EM ALTA</h2>
+
+            <div class="em_alta">
+                <div class="fade">
+                  <a href="Aranhaverso.html"><img src="Posters/Em alta/Através do aranhaverso.jpeg"></a>  
+                  <a href="flash.html"><img src="Posters/Em alta/Flash.webp"></a>  
+                  <a href="#"><img src="Posters/Em alta/Avatar.jpeg"></a>  
+                  <a href="#"><img src="Posters/Em alta/FRIENDS.jpeg"></a>  
+                  <a href="#"><img src="Posters/Em alta/Guardioes das galaxias vol 3.webp"></a>  
+                  <a href="#"><img src="Posters/Em alta/HIMYM.webp"></a>         
+                </div>
+
+                <div class="fade">
+                    <a href="#"><img src="Posters/Em alta/The witcher.webp"></a>  
+                    <a href="#"><img src="Posters/Em alta/FRIENDS.jpeg"></a>  
+                    <a href="#"><img src="Posters/Em alta/Stranger Things.jpeg"></a>  
+                    <a href="#"><img src="Posters/Em alta/Suits.jpeg"></a>  
+                    <a href="#"><img src="Posters/Em alta/Ted Lasso.jpeg"></a>  
+                    <a href="#"><img src="Posters/Em alta/The Last of Us.jpeg"></a>         
+                  </div>
+                  
+                  <a class="prev" onclick="plus_slides(-1)"> &#10094; </a>
+                  <a class="next" onclick="plus_slides(1)"> &#10095; </a>
+
+                  <div class="dot_box">
+                    <span class="dot" onclick="current_slides(1)"></span>
+                    <span class="dot" onclick="current_slides(2)"></span>
+                </div>
+            </div>
+        </div>
+
+        
+        
+<footer>
+    <div class="sociais">
+        <a href="#"><img src="img/icons8-twitter-50.png" ></a>
+        <a href="#"><img src="img/icons8-instagram-64.png" height="50px" width="50px"></a>
+        <a href="#"><img src="img/icons8-facebook-50.png" ></a>
+    </div>
+
+    Created by Gustavo Fonseca &copy;
+</footer>
+         
+</body>
+</html>
